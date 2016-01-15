@@ -1,0 +1,52 @@
+html {
+	margin: 0 auto;
+	font-family: "helvetica neue",arial,sans-serif;
+}
+body {
+	background-color: #E9E9E9;
+	margin: 0 auto;
+}
+nav {
+	height: 52px;
+	background-color: #FFF;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+button {
+	margin: 10px 0 0 25px;
+	height: 34px;
+	border: 1px solid #D4D4D4;
+	border-radius: 6px 0 0 6px;
+	background-color: #FCFCFC;
+	z-index: 9;
+}
+.ion-social-pinterest {
+	padding: 0 2px;
+	font-size: 25px;
+	color: #CB1F27;
+}
+input {
+	position: relative;
+	bottom: 4px;
+	right: 5px;
+	height: 32px;
+	width: 55vw;
+	background-color: #E9E9E9;
+	border: 1px solid #D4D4D4;
+	color: #A9A9A9;
+	font-size: 16px;
+	padding: 0 0 0 15px;
+	z-index: 1;
+}
+#nav-search-dropdown {
+	border: 1px solid #D4D4D4;
+	border-radius: 0 6px 6px 0;
+	background-color: #FCFCFC;
+	padding: 7px 10px;
+	position: relative;
+	bottom: 4px;
+	right: 10px;
+}
+.ion-navicon-round {
+	font-size: 20px;
+	color: #B8B8B8;
+}
