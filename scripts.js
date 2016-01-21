@@ -1,8 +1,9 @@
 console.log("Sanity Check: Js working!");
 
-var addPinButton = document.getElementById('add-pin-button');
+var $addPinButton = $('#add-pin-button');
 
-addPinButton.onclick = function(e) {
+$addPinButton.on('click', function(e) {
 	e.preventDefault();
-	console.log('Clicked add pin button');
-};
+	console.log("Clicked the add pin button!");
+	$('#add-pin-modal-container').addClass('show-add-pin-modal');
+});
