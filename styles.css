@@ -108,6 +108,7 @@ input {
 	width: 98vw;
 	margin: auto;
 	padding-top: 60px;
+	margin-bottom: 60px;
 }
 .card-grid {
 	margin: auto;
@@ -115,8 +116,10 @@ input {
 	-webkit-column-width: 263px;
 	-webkit-column-gap: 5px;
 	-moz-column-count: 4;
+	-moz-column-width: 263px;
 	-moz-column-gap: 5px;
 	column-count: 4;
+	column-width: 263px;
 	column-gap: 5px;
 }
 .card {
