@@ -100,6 +100,36 @@ input {
  	font-size: 20px;
  }
 
+/*//////////////////////////////*/
+/* 	FIXED BOTTOM RIGHT BUTTONS 	*/
+/*//////////////////////////////*/
+
+.bottom-right-buttons {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.bottom-right-buttons ul {
+	list-style-type: none;
+	margin: 0 25px 50px 0;
+}
+.bottom-right-buttons li {
+	margin: 20px;
+	background-color: #FFFFFF;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+.bottom-right-buttons li:hover {
+	cursor: pointer;
+}
+.bottom-right-buttons i {
+	font-size: 24px;
+	color: #A0A0A0;
+}
+
 /*//////////*/
 /* 	STREAM 	*/
 /*//////////*/
