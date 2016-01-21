@@ -6,6 +6,11 @@ This project is just a fun way to test my skills by recreating the styling (and 
 
 - HTML
 - CSS
+- JavaScript
+
+## Libraries
+
+- jQuery
 
 ## Goals
 
