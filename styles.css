@@ -139,16 +139,17 @@ input {
 	margin: auto;
 	padding-top: 60px;
 	margin-bottom: 60px;
+	transition: all ease-in 2s;
 }
 .card-grid {
 	margin: auto;
-	-webkit-column-count: 4;
+	-webkit-column-count: 5;
 	-webkit-column-width: 263px;
 	-webkit-column-gap: 5px;
-	-moz-column-count: 4;
+	-moz-column-count: 5;
 	-moz-column-width: 263px;
 	-moz-column-gap: 5px;
-	column-count: 4;
+	column-count: 5;
 	column-width: 263px;
 	column-gap: 5px;
 }
@@ -179,3 +180,55 @@ input {
 	padding: 0 0 5px 25px;
 	font-size: 12px;
 }
+
+/*//////////////////*/
+/* 	ADD PIN MODAL 	*/
+/*//////////////////*/
+
+.add-pin-modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(240,240,240,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	border-radius: 6px;
+}
+.add-pin-content {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	margin: 10% auto;
+	/*padding: 5px 20px 13px 20px;*/
+	border-radius: 10px;
+	background: #F4F4F4;
+}
+.show-add-pin-modal {
+	opacity: 1;
+}
+.add-pin-content > h1 {
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid #E7E7E7;
+	border-radius: 10px 10px 0 0;
+}
+#add-pin-form > input {
+	width: 400px;
+	border-radius: 6px;
+	background-color: white;
+}
+#add-pin-submit {
+	border-radius: 6px;
+	background-color: #CB1F27;
+	color: white;
+}
+
+
