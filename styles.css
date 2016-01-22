@@ -21,8 +21,12 @@ nav {
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
 	position: fixed;
 }
+#nav-content {
+	padding: 8px 0 0 0;
+	margin: auto;
+	width: 1350px;
+}
 button {
-	margin: 10px 0 0 25px;
 	height: 34px;
 	border: 1px solid #D4D4D4;
 	border-radius: 6px 0 0 6px;
@@ -34,12 +38,12 @@ button {
 	font-size: 25px;
 	color: #CB1F27;
 }
-input {
+#nav-search > input {
 	position: relative;
 	bottom: 4px;
 	right: 5px;
 	height: 32px;
-	width: 55vw;
+	width: 960px;
 	background-color: #E9E9E9;
 	border: 1px solid #D4D4D4;
 	color: #A9A9A9;
@@ -47,11 +51,14 @@ input {
 	padding: 0 0 0 15px;
 	z-index: 1;
 }
+#nav-search {
+	width: 100%;
+}
 #nav-search-dropdown {
 	border: 1px solid #D4D4D4;
 	border-radius: 0 6px 6px 0;
 	background-color: #FCFCFC;
-	padding: 6px 10px 7px 10px;
+	padding: 7px 10px 7px 10px;
 	position: relative;
 	bottom: 4px;
 	right: 12px;
@@ -75,7 +82,7 @@ input {
  border: 1px solid #D4D4D4;
  position: relative;
  bottom: 38px;
- right: 100px;
+ right: 42px;
  height: 22px;
  padding: 7px 0 3px 30px;
 }
@@ -250,6 +257,12 @@ input {
 /*//////////////////*/
 
 @media screen and (max-width: 1400px) {
+	#nav-content {
+		width: 1076px;
+	}
+	#nav-search > input {
+		width: 686px;
+	}
 	.card-grid {
 		width: 1076px;
 		-webkit-column-count: 4;
@@ -264,6 +277,12 @@ input {
 	}
 }
 @media screen and (max-width: 1100px) {
+	#nav-content {
+		width: 810px;
+	}
+	#nav-search > input {
+		width: 420px;
+	}
 	.card-grid {
 		width: 810px;
 		-webkit-column-count: 3;
