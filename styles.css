@@ -76,7 +76,7 @@ button {
 }
 #nav-user-info {
  float: right;
- width: 200px;
+ width: 215px;
  background-color: #F9F9F9;
  border-radius: 6px 0 0 6px;
  border: 1px solid #D4D4D4;
@@ -84,7 +84,7 @@ button {
  bottom: 38px;
  right: 42px;
  height: 22px;
- padding: 7px 0 3px 30px;
+ padding: 3px 0 8px 8px;
 }
 #nav-username {
 	color: #818181;
@@ -92,21 +92,27 @@ button {
 	font-size: 16px;
 }
 #nav-user-info-notification {
-	padding: 5px 0 3px 20px;
+	height: 33px;
 	float: right;
 	background-color: #F9F9F9;
 	border: 1px solid #D4D4D4;
-	width: 30px;
+	width: 40px;
 	border-radius: 0 6px 6px 0;
 	position: relative;
-	bottom: 8px;
+	bottom: 4px;
 	left: 42px;
+	background-image: url(./images/PinterestNotificationIcon.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: center; 
 }
-.ion-pin {
- 	color: #B8B8B8;
- 	font-size: 20px;
- }
-
+#nav-username > img {
+	height: 20px;
+	padding: 0 8px 0 0;
+	position: relative;
+	top: 4px;
+	right: 0;
+}
 /*//////////////////////////////*/
 /* 	FIXED BOTTOM RIGHT BUTTONS 	*/
 /*//////////////////////////////*/
@@ -123,8 +129,8 @@ button {
 .bottom-right-buttons li {
 	margin: 20px;
 	background-color: #FFFFFF;
-	height: 30px;
-	width: 30px;
+	height: 32px;
+	width: 32px;
 	border-radius: 50%;
 	text-align: center;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
@@ -132,11 +138,23 @@ button {
 .bottom-right-buttons li:hover {
 	cursor: pointer;
 }
-.bottom-right-buttons i {
-	font-size: 24px;
+.bottom-right-buttons .ion-plus-round {
+	font-size: 22px;
 	color: #A0A0A0;
+	position: relative;
+	top: 3px;
+	right: 0;
 }
-
+.bottom-right-buttons .ion-help {
+	font-size: 20px;
+	color: #A0A0A0;
+	position: relative;
+	top: 4px;
+	right: 0;
+}
+.bottom-right-buttons li:hover {
+	background-color: #F7F7F7;
+}
 /*//////////*/
 /* 	STREAM 	*/
 /*//////////*/
@@ -153,7 +171,7 @@ button {
 	width: 1350px;
 	-webkit-column-count: 5;
 	-webkit-column-width: 100px;
-	-webkit-column-gap: 5px;
+	-webkit-column-gap: 10px;
 	-moz-column-count: 5;
 	-moz-column-width: 100px;
 	-moz-column-gap: 5px;
@@ -168,14 +186,14 @@ button {
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	column-break-inside: avoid;
-	width: 263px;
+	width: 258px;
 	margin: 10px 0 0 0;
 	border-radius: 6px;
 	background-color: white;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
 }
 .card > img {
-	width: 263px;
+	width: 258px;
 	border-radius: 6px 6px 0 0;
 	border-bottom: 1px solid #E7E7E7;
 }
@@ -242,6 +260,7 @@ button {
 	border-radius: 10px 10px 0 0;
 }
 #add-pin-form > input {
+	z-index: 99999;
 	width: 400px;
 	border-radius: 6px;
 	background-color: white;
@@ -261,7 +280,7 @@ button {
 		width: 1076px;
 	}
 	#nav-search > input {
-		width: 686px;
+		width: 700px;
 	}
 	.card-grid {
 		width: 1076px;
@@ -281,7 +300,7 @@ button {
 		width: 810px;
 	}
 	#nav-search > input {
-		width: 420px;
+		width: 432px;
 	}
 	.card-grid {
 		width: 810px;
