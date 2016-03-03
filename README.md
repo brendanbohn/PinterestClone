@@ -1,5 +1,7 @@
 # Pinterest Clone
 
+You can view it live [here](https://pinterest-clone.bitballoon.com/), although for the most recent version, fork and clone the repo.
+
 This project is just a fun way to test my skills by recreating the styling (and hopefully function) of Pinterest's website.
 
 ## Languages
